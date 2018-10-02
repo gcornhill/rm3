@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+}
+
+.background { 
+	background: url(../images/homepage.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 100vw;
+  	height: 100vh;
+}
+
+.wrapper {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	position: fixed;
+	top: 0; left: 0; bottom: 0; right: 0;
+	z-index: 999;
+}
